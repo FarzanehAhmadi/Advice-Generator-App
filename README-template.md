@@ -52,6 +52,9 @@ Users should be able to:
 - How to use `box-shadow` and `transform` to add smooth hover effects
 - Debugging issues with media queries and layout responsiveness
 
+### Continued development
+I'm still working on improving the responsiveness of the app, especially on smaller screen sizes. The layout is centered and works on desktop, but I'm tweaking styles and testing media queries for full mobile support.
+
 ```js
 // Fetching advice from the API
 async function getData() {
