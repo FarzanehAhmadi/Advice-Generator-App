@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 <!-- - Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/advice-generator-app-using-js-and-css-flexbox-grid-ABC123) Replace with your actual solution URL -->
-- Live Site URL: [[https://advice-generator-app-dusky.vercel.app](https://farzanehahmadi.github.io/Advice-Generator-App/)]
+- Live Site URL: [Live Demo](https://farzanehahmadi.github.io/Advice-Generator-App/)]
 
 ## My process
 
