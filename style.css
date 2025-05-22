@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+:root {
+  --Blue200: hsl(193, 38%, 86%);
+  --Green300: hsl(150, 100%, 66%);
+  --Blue600: hsl(217, 19%, 38%);
+  --Blue900: hsl(217, 19%, 24%);
+  --Blue950: hsl(218, 23%, 16%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--Blue950);
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.advice-box {
+  position: relative;
+  background-color: var(--Blue900);
+  border-radius: 10px;
+  width: 530px;
+  height: auto;
+  text-align: center;
+  color: var(--Blue200);
+}
+.advice-box img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.advice-id {
+  font-size: 13px;
+  letter-spacing: 0.34em;
+  margin: 30px 0;
+  color: var(--Green300);
+}
+.advice-text {
+  margin: 0 20px;
+}
+.dice {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--Green300);
+  border-radius: 50%;
+  transform: translate(-50%, 50%);
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.dice img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin: 0;
+}
